@@ -1,8 +1,3 @@
-# Changepoint-Detection-Capstone
-
-![alt text](https://travis-ci.org/sharmeelee/Changepoint-Dectection-Capstone.svg?branch=main)
-[![Coverage Status](https://coveralls.io/repos/github/sharmeelee/Changepoint-Dectection-Capstone/badge.svg?branch=main)](https://coveralls.io/github/sharmeelee/Changepoint-Dectection-Capstone?branch=main)
-
 # Detection of Changepoints during COVID
 Authors: Priyanka Bijlani, Sharmeelee Bijlani, Lakshmi Venkatasubramanian, Dhruv Arora, Divya Pandey
 ## Introduction
