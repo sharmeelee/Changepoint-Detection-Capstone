@@ -59,44 +59,6 @@ The data we will utilize for performance validation is datasets used in the Turi
         Nile.ipynb
         Ozone.ipynb
         Quality_control_1.ipynb
-
-```
-```
-Datasets
-   |-- DP_Datasets
-   |   |-- Brent Spot Price.csv
-   |   |-- Cali Emissions.csv
-   |   |-- Coal Power.csv
-   |   |-- HH Spot Price.csv
-   |   |-- Imports Crude Oil.csv
-   |   |-- NA Emissions.csv
-   |   |-- Nuclear Capacity.csv
-   |   |-- Ren Gen TX.csv
-   |   |-- WTI Price FOB.csv
-   |   |-- Wind Gen.csv
-   |   |-- test.txt
-   |-- katsExploration-MinimumTemp.ipynb
-   |-- notes
-EDA
-   |-- katsExploration-Bayesian.ipynb
-   |-- katsExploration-RobustStatDetector.ipynb
-Final Drafts
-   |-- Final_Notebook.ipynb
-   |-- Turing_Cusum.ipynb
-   |-- test.md
-LICENSE
-README.md
-TCPD
-   |-- Centralia 3.ipynb
-   |-- GDP_Japan.ipynb
-   |-- Global_Monthly_CO2.ipynb
-   |-- Homeruns.ipynb
-   |-- Iteration_1.ipynb
-   |-- LGA_passengers.ipynb
-   |-- Nile 10.ipynb
-   |-- Nile.ipynb
-   |-- Ozone.ipynb
-   |-- Quality_control_1.ipynb
 ```
 
 
