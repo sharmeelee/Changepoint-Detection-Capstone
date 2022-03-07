@@ -127,4 +127,5 @@ cd Changepoint-Detection-Capstone
 ```
 Download and run the jupyter notebooks
 ```
-
+### License
+This work is licensed under the MIT license.
