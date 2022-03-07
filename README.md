@@ -8,7 +8,6 @@ The data we will utilize for performance validation is datasets used in the Turi
 
 ### Directory Structure
 ```bash
-C:.
 |   LICENSE
 |   README.md
 |
