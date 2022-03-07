@@ -111,6 +111,9 @@ We attempt to evaluate the different algorithms by choosing 3 specific use cases
 
 ![image](https://user-images.githubusercontent.com/29467617/157128096-e69b28f6-fb77-4978-b3a7-76f7d36d1d00.png)
 
+![image](https://user-images.githubusercontent.com/29467617/157128579-fd4ade12-ad4e-4f47-9a7e-7c8ac2719e43.png)
+
+
 ## Running the Program
 ### Installation Instructions
 Run the following commands in a linux terminal. 
