@@ -98,7 +98,7 @@ We attempt to evaluate the different algorithms by choosing 3 specific use cases
 
 3. **Telling the Covid-19 story through changepoints**
         
-        Changepoint detection is a great way to tell a story about historical events. While true changepoints provide context on when an event occured, such as policy change, detected changepoints mark when the change actually takes effect on the ground. This makes changepoint detection an apt way to describe the events during the COVID-19 pandemic. The goal of this section is to portray how COVID-19 affected trends in mobility as seen through true changepoints and detected changepoints. We analyze the timing of preventative actions during the pandemic and their after-effects on mobility in various contexts across the United States.
+      Changepoint detection is a great way to tell a story about historical events. While true changepoints provide context on when an event occured, such as policy change, detected changepoints mark when the change actually takes effect on the ground. This makes changepoint detection an apt way to describe the events during the COVID-19 pandemic. The goal of this section is to portray how COVID-19 affected trends in mobility as seen through true changepoints and detected changepoints. We analyze the timing of preventative actions during the pandemic and their after-effects on mobility in various contexts across the United States.
 
 
 ## Running the Program
