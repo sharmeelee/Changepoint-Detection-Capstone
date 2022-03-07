@@ -80,10 +80,10 @@ In this section, we evaluate each changepoint detection algorithm from the KATS 
 2. **Applying changepoint algorithms to the Google Mobility data**:
 In this section, we apply the KATS algorithms to the Google Mobility dataset which has multiple timeseries with over 20,000 rows each. The purpose of applying the KATS changepoint algorithms to the Google Mobility dataset is to explore how the algorithms behave in a real data scenario where catalyst dates are known, but the changepoints are unknown. The time when a change is announced may differ than the time when the change is observed in effect. We start by exploring the Global Mobility Report for the United States which can be downloaded from https://www.google.com/covid19/mobility/. 
 
-        We attempt to evaluate the different algorithms by choosing 3 specific use cases here:
-        - Ability to detect multiple changepoints using Washington state transit data
-        - Ability to detect seasonal changepoints using NewYork state parks data
-        - Ability to resist outliers while detecting changepoints using Florida grocery and pharmacy data. 
+We attempt to evaluate the different algorithms by choosing 3 specific use cases here:
+  - Ability to detect multiple changepoints using Washington state transit data
+  - Ability to detect seasonal changepoints using NewYork state parks data
+  - Ability to resist outliers while detecting changepoints using Florida grocery and pharmacy data. 
 
 
 3. **Telling the Covid-19 story through changepoints**
