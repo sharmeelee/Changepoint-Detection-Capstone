@@ -109,6 +109,7 @@ We attempt to evaluate the different algorithms by choosing 3 specific use cases
 
       - To find how specific rules or regulations and their near-term impact, CUSUM detector would be an ideal choice because an interest window as well as the direction of the changepoint can be specified before application. County level data in shorter time frames can be analyzed using the CUSUM detector.
 
+![image](https://user-images.githubusercontent.com/29467617/157128096-e69b28f6-fb77-4978-b3a7-76f7d36d1d00.png)
 
 ## Running the Program
 ### Installation Instructions
