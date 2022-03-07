@@ -63,23 +63,33 @@ The data we will utilize for performance validation is datasets used in the Turi
 
 
 ### Program Functionality
-1. User will get a movie recommendation from the system based on their movie watch and rating history.
-  - Training input: users, movies, ratings
-  - User input: user name/id
-  - Outputs: movie(s)
-  - ML algorithm: Collaborative filtering (analyzes historical data)
+1. Exploring changepoint detection algorithms using TCPD benchmark study.
+In this section, we evaluate each changepoint detection algorithm from the KATS package using the datasets from the Turing study. The purpose of this exercise is to assess the advantages and shortcomings of each algorithm in the KATS package. We provide an analysis of each algorithm and its parameters optimized to find the changepoints closest to the true changepoints and with high confidence. These insights will be used to determine which algorithm is best suited for Google Mobility data for detecting changepoints during Covid.
 
-2. User will be able to provide a movie name and get similar movies.
-  - Training input: users, movies, ratings
-  - User input: movie
-  - Outputs: movie(s)
-  - ML algorithm: Collaborative filtering 
+Based on our finding from each algorithm run on datasets of varying domains, sizes, and number of changepoints, we recommend the selection criteria below. 
 
-3. User will be able to predict the rating of a given movie based on their rating history.
+| Timeseries          | CUSUM | BOCP | RS |
+|---------------------|-------|------|----|
+| Outliers            | x     |      | x  |
+| Few Datapoints      | x     |      | x  |
+| Known CP Direction  | x     |      |    |
+| Multiple CPs        |       | x    | x  |
+| Seasonality         |       | x    |    |
+| No Domain Knowledge |       | x    |    |
+
+2. Applied Research on Google Mobility Data.
+In this section, we apply the KATS algorithms to the Google Mobility dataset which has multiple timeseries with over 20,000 rows each. 
+The purpose of applying the KATS changepoint algorithms to the Google Mobility dataset is to explore how the algorithms behave in a real data scenario where catalyst dates are known, but the changepoints are unknown. The time when a change is announced may differ than the time when the change is observed in effect. We start by exploring the Global Mobility Report for the United States which can be downloaded from https://www.google.com/covid19/mobility/. We attempt to observe this effect via the different trends in the Google Mobility dataset for the entire United States, . 
+
+In this section, we use the aggreaged United States data as well as data from a few individual states across the country. We use Washington state since we have more contextual knowledge about it. We use New York and Florida data as both have vastly different context in terms of polity and climate, both of which have an effect on mobility.
+
+3. The COVID-19 Story Told Through Changepoints.
   - Training input: users, movies, ratings
   - User input: User, movie
   - Outputs: rating
   - ML algorithm: Collaborative filtering 
+
+
 ## Running the Program
 ### Installation Instructions
 Run the following commands in a linux terminal. 
