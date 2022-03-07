@@ -106,7 +106,7 @@ We attempt to evaluate the different algorithms by choosing 3 specific use cases
 Run the following commands in a linux terminal. 
 Note: Python 3.8 required
 ```
-git clone https://github.com/sharmeelee/MovieRecommender.git
+git clone https://github.com/sharmeelee/Changepoint-Detection-Capstone.git
 ```
 ```
 cd MovieRecommender
