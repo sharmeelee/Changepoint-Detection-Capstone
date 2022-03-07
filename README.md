@@ -126,7 +126,7 @@ python3 setup.py install
 ### Running the Use Cases
 To run the program, you need to navigate within the directory to the MovieRecommender sub-folder where the use_cases.py file lives.
 ```
-cd MovieRecommender
+cd Changepoint-Detection-Capstone
 ```
 #### Use Case #1: No inputs
 Running the use_cases.py file without any arguments is an example usage of the full functionality of the program. It outputs movie rating for the default user (user 100) along with 20 similar movie titles to the default movie (Sliding Doors) and top 10 movie recommendations for the default user. 
