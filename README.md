@@ -99,6 +99,15 @@ We attempt to evaluate the different algorithms by choosing 3 specific use cases
 3. **Telling the Covid-19 story through changepoints**
         
       Changepoint detection is a great way to tell a story about historical events. While true changepoints provide context on when an event occured, such as policy change, detected changepoints mark when the change actually takes effect on the ground. This makes changepoint detection an apt way to describe the events during the COVID-19 pandemic. The goal of this section is to portray how COVID-19 affected trends in mobility as seen through true changepoints and detected changepoints. We analyze the timing of preventative actions during the pandemic and their after-effects on mobility in various contexts across the United States.
+      
+      We use the learnings from part 1 and 2 above to influence the choice of algorithms as below:
+      - The key changepoints in the COVID-19 story for the United States can be best detected using the Robust Stat detector because the data is highly aggregated. Therefore, it does not contain as drastic seasonality. However, there are a few outliers that oppose the regular trend which should not be mislabeled as changepoints. Since there are over 700 days worth of data, it can be expected that there will be multiple changepoints.
+
+      - For individual states, algorithm selection must be based on some domain knowledge of the timeseries. For example, states with constant climate can use the Robust Stat detector, but others with changing seasons would need to opt for BOCP detector or CUSUM with multiple interest windows.
+
+      - In the case that there is no domain knowledge of the state, BOCP detector in its current form is a strong choice because there would be no need for parameter selection to detect multiple changepoints.
+
+      - To find how specific rules or regulations and their near-term impact, CUSUM detector would be an ideal choice because an interest window as well as the direction of the changepoint can be specified before application. County level data in shorter time frames can be analyzed using the CUSUM detector.
 
 
 ## Running the Program
