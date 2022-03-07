@@ -63,9 +63,9 @@ The data we will utilize for performance validation is datasets used in the Turi
 
 
 ### Program Functionality
-1. **Exploring changepoint detection algorithms using TCPD benchmark study**
+1. **Exploring changepoint detection algorithms using TCPD benchmark study**:
 
-In this section, we evaluate each changepoint detection algorithm from the KATS package using the datasets from the Turing study. The purpose of this exercise is to assess the advantages and shortcomings of each algorithm in the KATS package. We provide an analysis of each algorithm and its parameters optimized to find the changepoints closest to the true changepoints and with high confidence. These insights will be used to determine which algorithm is best suited for Google Mobility data for detecting changepoints during Covid.
+        In this section, we evaluate each changepoint detection algorithm from the KATS package using the datasets from the Turing study. The purpose of this exercise is to assess the advantages and shortcomings of each algorithm in the KATS package. We provide an analysis of each algorithm and its parameters optimized to find the changepoints closest to the true changepoints and with high confidence. These insights will be used to determine which algorithm is best suited for Google Mobility data for detecting changepoints during Covid.
 
    **Based on our finding from each algorithm run on datasets of varying domains, sizes, and number of changepoints, we recommend the selection criteria below:** 
 
@@ -78,10 +78,10 @@ In this section, we evaluate each changepoint detection algorithm from the KATS 
         | Seasonality         |       | x    |    |
         | No Domain Knowledge |       | x    |    |
 
-2. **Applying changepoint algorithms to the Google Mobility data**
+2. **Applying changepoint algorithms to the Google Mobility data**:
 
-In this section, we apply the KATS algorithms to the Google Mobility dataset which has multiple timeseries with over 20,000 rows each. 
-The purpose of applying the KATS changepoint algorithms to the Google Mobility dataset is to explore how the algorithms behave in a real data scenario where catalyst dates are known, but the changepoints are unknown. The time when a change is announced may differ than the time when the change is observed in effect. We start by exploring the Global Mobility Report for the United States which can be downloaded from https://www.google.com/covid19/mobility/. 
+        In this section, we apply the KATS algorithms to the Google Mobility dataset which has multiple timeseries with over 20,000 rows each. 
+        The purpose of applying the KATS changepoint algorithms to the Google Mobility dataset is to explore how the algorithms behave in a real data scenario where catalyst dates are known, but the changepoints are unknown. The time when a change is announced may differ than the time when the change is observed in effect. We start by exploring the Global Mobility Report for the United States which can be downloaded from https://www.google.com/covid19/mobility/. 
 
         We attempt to evaluate the different algorithms by choosing 3 specific use cases here:
         - Ability to detect multiple changepoints using Washington state transit data
