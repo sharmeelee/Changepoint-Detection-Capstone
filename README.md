@@ -7,6 +7,61 @@ Meta's Infrastructure Data Science team has released a time-series package calle
 The data we will utilize for performance validation is datasets used in the Turing Change Point Dataset Benchmark Study (https://github.com/alan-turing-institute/TCPD) and the Google Mobility Dataset (https://www.google.com/covid19/mobility/) with true labels in the time-series as known by public knowledge. 
 
 ### Directory Structure
+```bash
+C:.
+|   LICENSE
+|   README.md
+|
++---Artifacts
+|       Flyer.pdf
+|       Infographics_capstone.pdf
+|       test
+|
++---Datasets
+|   |   katsExploration-MinimumTemp.ipynb
+|   |   notes
+|   |
+|   \---DP_Datasets
+|           Brent Spot Price.csv
+|           Cali Emissions.csv
+|           Coal Power.csv
+|           HH Spot Price.csv
+|           Imports Crude Oil.csv
+|           NA Emissions.csv
+|           Nuclear Capacity.csv
+|           Ren Gen TX.csv
+|           test.txt
+|           Wind Gen.csv
+|           WTI Price FOB.csv
+|
++---EDA
+|       katsExploration-Bayesian.ipynb
+|       katsExploration-RobustStatDetector.ipynb
+|
++---Final Drafts
+|       Appendix.ipynb
+|       CovidStory.ipynb
+|       FinalDraft2.ipynb
+|       Final_Notebook.ipynb
+|       GoogleMobility.ipynb
+|       test.md
+|       Turing_BOCP.ipynb
+|       Turing_Cusum.ipynb
+|       Turing_RSD.ipynb
+|
+\---TCPD
+        Centralia 3.ipynb
+        GDP_Japan.ipynb
+        Global_Monthly_CO2.ipynb
+        Homeruns.ipynb
+        Iteration_1.ipynb
+        LGA_passengers.ipynb
+        Nile 10.ipynb
+        Nile.ipynb
+        Ozone.ipynb
+        Quality_control_1.ipynb
+
+```
 ```
 Datasets
    |-- DP_Datasets
