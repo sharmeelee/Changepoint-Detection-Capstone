@@ -7,7 +7,45 @@ Meta's Infrastructure Data Science team has released a time-series package calle
 The data we will utilize for performance validation is datasets used in the Turing Change Point Dataset Benchmark Study (https://github.com/alan-turing-institute/TCPD) and the Google Mobility Dataset (https://www.google.com/covid19/mobility/) with true labels in the time-series as known by public knowledge. 
 
 ### Directory Structure
-![alt text](images/repo_tree.png)
+```
+Datasets
+   |-- DP_Datasets
+   |   |-- Brent Spot Price.csv
+   |   |-- Cali Emissions.csv
+   |   |-- Coal Power.csv
+   |   |-- HH Spot Price.csv
+   |   |-- Imports Crude Oil.csv
+   |   |-- NA Emissions.csv
+   |   |-- Nuclear Capacity.csv
+   |   |-- Ren Gen TX.csv
+   |   |-- WTI Price FOB.csv
+   |   |-- Wind Gen.csv
+   |   |-- test.txt
+   |-- katsExploration-MinimumTemp.ipynb
+   |-- notes
+EDA
+   |-- katsExploration-Bayesian.ipynb
+   |-- katsExploration-RobustStatDetector.ipynb
+Final Drafts
+   |-- Final_Notebook.ipynb
+   |-- Turing_Cusum.ipynb
+   |-- test.md
+LICENSE
+README.md
+TCPD
+   |-- Centralia 3.ipynb
+   |-- GDP_Japan.ipynb
+   |-- Global_Monthly_CO2.ipynb
+   |-- Homeruns.ipynb
+   |-- Iteration_1.ipynb
+   |-- LGA_passengers.ipynb
+   |-- Nile 10.ipynb
+   |-- Nile.ipynb
+   |-- Ozone.ipynb
+   |-- Quality_control_1.ipynb
+```
+
+
 ### Program Functionality
 1. User will get a movie recommendation from the system based on their movie watch and rating history.
   - Training input: users, movies, ratings
