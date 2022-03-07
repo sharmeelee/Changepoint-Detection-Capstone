@@ -66,7 +66,7 @@ The data we will utilize for performance validation is datasets used in the Turi
 1. **Exploring changepoint detection algorithms using TCPD benchmark study**
 In this section, we evaluate each changepoint detection algorithm from the KATS package using the datasets from the Turing study. The purpose of this exercise is to assess the advantages and shortcomings of each algorithm in the KATS package. We provide an analysis of each algorithm and its parameters optimized to find the changepoints closest to the true changepoints and with high confidence. These insights will be used to determine which algorithm is best suited for Google Mobility data for detecting changepoints during Covid.
 
-        **Based on our finding from each algorithm run on datasets of varying domains, sizes, and number of changepoints, we recommend the selection criteria below:** 
+   **Based on our finding from each algorithm run on datasets of varying domains, sizes, and number of changepoints, we recommend the selection criteria below:** 
 
         | Timeseries          | CUSUM | BOCP | RS |
         |---------------------|-------|------|----|
