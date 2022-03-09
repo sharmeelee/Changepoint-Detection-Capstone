@@ -90,11 +90,11 @@ The data we will utilize for performance validation are datasets used in the Tur
         
       - **Ability to detect seasonal changepoints using NewYork state parks data**
 
-      Based on our finding from each algorithm, the BOCP Detector performs the best on a timeseries with seasonality. RS Detector finds a changepoint in each season in an observable pattern.  Even though CUSUM detects a changepoint based on the interest_window, it is very hard to know the right window range unless we know the change point upfront which is not the case usually.
+          Based on our finding from each algorithm, the BOCP Detector performs the best on a timeseries with seasonality. RS Detector finds a changepoint in each season in an observable pattern.  Even though CUSUM detects a changepoint based on the interest_window, it is very hard to know the right window range unless we know the change point upfront which is not the case usually.
         
       - **Ability to resist outliers while detecting changepoints using Florida grocery and pharmacy data**
         
-      Based on our finding from each algorithm, the BOCP detector fails the assessment of being outlier resilient since it detects several outliers as changepoints which are false positives. The CUSUM detector with and without an interest window does not mislabel outliers as changepoints. RS detector also does not detect outliers as changepoints. Both prove to be better algorithms for timeseries that have outliers.
+          Based on our finding from each algorithm, the BOCP detector fails the assessment of being outlier resilient since it detects several outliers as changepoints which are false positives. The CUSUM detector with and without an interest window does not mislabel outliers as changepoints. RS detector also does not detect outliers as changepoints. Both prove to be better algorithms for timeseries that have outliers.
 
 
 3. **Telling the Covid-19 story through changepoints**
