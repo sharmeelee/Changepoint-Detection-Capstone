@@ -126,6 +126,9 @@ git clone https://github.com/sharmeelee/Changepoint-Detection-Capstone.git
 cd Changepoint-Detection-Capstone
 ```
 ```
+python3 setup.py install
+```
+```
 Download and run the following jupyter notebooks
 Turing_RSD.ipynb, Turing_BOCP.ipynb, Turing_Cusum.ipynb and FinalDraft2.ipynb
 ```
