@@ -82,7 +82,7 @@ The data we will utilize for performance validation are datasets used in the Tur
 
      In this section, we apply the KATS algorithms to the Google Mobility dataset which has multiple timeseries with over 20,000 rows each. The purpose of applying the KATS changepoint algorithms to the Google Mobility dataset is to explore how the algorithms behave in a real data scenario where catalyst dates are known, but the changepoints are unknown. The time when a change is announced may differ than the time when the change is observed in effect. We start by exploring the Global Mobility Report for the United States which can be downloaded from https://www.google.com/covid19/mobility/. 
 
-We attempt to evaluate the different algorithms by choosing 3 specific use cases here and all the analysis is composed in the notebook FinalDraft2.ipynb:
+     We attempt to evaluate the different algorithms by choosing 3 specific use cases here and all the analysis is composed in the notebook FinalDraft2.ipynb:
   - **Ability to detect multiple changepoints using Washington state transit data**  
   
       Based on our finding from each algorithm, the CUSUM detector only detects one changepoint in each direction and thus is not suitable for a large timeseries with both drastic and subtle changepoints unless the timeseries is segmented into interest windows where an expected changepoint is to occur. Without this prior knowledge, one would have to scan the entire timeseries with multiple window and plot all the discovered changepoints requiring extra coding effort. Both the BOCP and RS detectors are better choices for timeseries data with multiple expected changepoints.
