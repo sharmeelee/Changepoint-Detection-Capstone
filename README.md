@@ -83,15 +83,15 @@ The data we will utilize for performance validation are datasets used in the Tur
      In this section, we apply the KATS algorithms to the Google Mobility dataset which has multiple timeseries with over 20,000 rows each. The purpose of applying the KATS changepoint algorithms to the Google Mobility dataset is to explore how the algorithms behave in a real data scenario where catalyst dates are known, but the changepoints are unknown. The time when a change is announced may differ than the time when the change is observed in effect. We start by exploring the Global Mobility Report for the United States which can be downloaded from https://www.google.com/covid19/mobility/. 
 
      We attempt to evaluate the different algorithms by choosing 3 specific use cases here and all the analysis is composed in the notebook **FinalDraft2.ipynb**:
-  - **Ability to detect multiple changepoints using Washington state transit data**  
+        - **Ability to detect multiple changepoints using Washington state transit data**  
   
-      Based on our finding from each algorithm, the CUSUM detector only detects one changepoint in each direction and thus is not suitable for a large timeseries with both drastic and subtle changepoints unless the timeseries is segmented into interest windows where an expected changepoint is to occur. Without this prior knowledge, one would have to scan the entire timeseries with multiple window and plot all the discovered changepoints requiring extra coding effort. Both the BOCP and RS detectors are better choices for timeseries data with multiple expected changepoints.
+        Based on our finding from each algorithm, the CUSUM detector only detects one changepoint in each direction and thus is not suitable for a large timeseries with both drastic and subtle changepoints unless the timeseries is segmented into interest windows where an expected changepoint is to occur. Without this prior knowledge, one would have to scan the entire timeseries with multiple window and plot all the discovered changepoints requiring extra coding effort. Both the BOCP and RS detectors are better choices for timeseries data with multiple expected changepoints.
         
-  - **Ability to detect seasonal changepoints using NewYork state parks data**
+      - **Ability to detect seasonal changepoints using NewYork state parks data**
 
       Based on our finding from each algorithm, the BOCP Detector performs the best on a timeseries with seasonality. RS Detector finds a changepoint in each season in an observable pattern.  Even though CUSUM detects a changepoint based on the interest_window, it is very hard to know the right window range unless we know the change point upfront which is not the case usually.
         
-  - **Ability to resist outliers while detecting changepoints using Florida grocery and pharmacy data**
+      - **Ability to resist outliers while detecting changepoints using Florida grocery and pharmacy data**
         
       Based on our finding from each algorithm, the BOCP detector fails the assessment of being outlier resilient since it detects several outliers as changepoints which are false positives. The CUSUM detector with and without an interest window does not mislabel outliers as changepoints. RS detector also does not detect outliers as changepoints. Both prove to be better algorithms for timeseries that have outliers.
 
