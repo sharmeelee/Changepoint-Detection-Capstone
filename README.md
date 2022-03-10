@@ -111,7 +111,18 @@ The data we will utilize for performance validation are datasets used in the Tur
 
 ### COVID-19 in the United States <a name="part3a"></a>
 
-When the pandemic was officially announced in March 2020, there were a series of events over the course of the next two years, that occured to control the spread the of the COVID-19 virus in the United States. These preventative measures included stay-at-home orders, mask mandates, and vaccines. The list of events are outlined in the table below. Of all the events, the key actions that affect mobility are bolded. We denote these as true changepoints.
+When the pandemic was officially announced in March 2020, there were a series of events over the course of the next two years, that occured to control the spread the of the COVID-19 virus in the United States. These preventative measures included stay-at-home orders, mask mandates, and vaccines. The list of events that affected the mobility are given below. We denote these as true changepoints.
+
+| Dates          | Events                                                                                                                                           |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+|      **3/15/2020** | **CDC issued guidance recommending against any gathering of 50 or more people for an eight-week period.**                                        |
+|      **3/16/2020** | **President Trump issued new guidelines urging people to avoid social gatherings of more than ten people and to restrict discretionary travel.** |
+|   **4/3/2020** | **On April 3, 2020, the CDC issued guidance recommending that non-medical face coverings be worn in public**                                     |
+| **12/31/2020** | **Delta Variant found in Florida**                                                                                                               ||
+| **12/31/2020** | **Vaccines available**                                                                                                                           |
+|   **2/1/2021** | **Distribution of vaccines**                                                                                                                     |
+|  **12/1/2021** | **Omicron variant**                                                                                                                              |
+
 
 ![image](https://user-images.githubusercontent.com/29467617/157128096-e69b28f6-fb77-4978-b3a7-76f7d36d1d00.png)
 
