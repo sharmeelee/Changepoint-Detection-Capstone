@@ -7,7 +7,7 @@ Meta's Infrastructure Data Science team has released a time-series package calle
 - Kats: https://facebookresearch.github.io/Kats/
 - Kats Python package: https://pypi.org/project/kats/0.1.0/
 - Facebook Engineering Blog Post: https://engineering.fb.com/2021/06/21/open-source/kats/
-- Notebooks: https://github.com/sharmeelee/Changepoint-Detection-Capstone/tree/main/Final%20Drafts
+- Notebooks: https://github.com/sharmeelee/Changepoint-Detection-Capstone/tree/main/Notebooks
 
 ### Data
 The data we will utilize for performance validation are datasets used in the Turing Change Point Dataset Benchmark Study (https://github.com/alan-turing-institute/TCPD) and the Google Mobility Dataset (https://www.google.com/covid19/mobility/) with true labels in the time-series as known by public knowledge.
