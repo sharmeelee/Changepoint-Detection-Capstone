@@ -10,7 +10,7 @@ Meta's Infrastructure Data Science team has released a time-series package calle
 - Notebooks: https://github.com/sharmeelee/Changepoint-Detection-Capstone/tree/main/Notebooks
 
 ### Data
-The data we will utilize for performance validation are datasets used in the Turing Change Point Dataset Benchmark Study (https://github.com/alan-turing-institute/TCPD) and the Google Mobility Dataset (https://www.google.com/covid19/mobility/) with true labels in the time-series as known by public knowledge.
+The data we will utilize for performance validation are datasets used in the [Turing Change Point Dataset Benchmark Study](https://github.com/alan-turing-institute/TCPD) and the [Google Mobility Dataset](https://www.google.com/covid19/mobility/) with true labels in the time-series as known by public knowledge.
 
 ### Directory Structure
 ```bash
@@ -21,7 +21,7 @@ The data we will utilize for performance validation are datasets used in the Tur
 |
 +---Artifacts
 |       Flyer.pdf
-|       Poster
+|       Poster.pdf
 |
 \---Notebooks
         Appendix.ipynb
@@ -77,8 +77,8 @@ When the pandemic was officially announced in March 2020, there were a series of
 
 | Dates          | Events                                                                                                                                           |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|      **3/15/2020** | **CDC issued guidance recommending against any gathering of 50 or more people for an eight-week period.**                                        |
-|      **3/16/2020** | **President Trump issued new guidelines urging people to avoid social gatherings of more than ten people and to restrict discretionary travel.** |
+|  **3/15/2020** | **CDC issued guidance recommending against any gathering of 50 or more people for an eight-week period.**                                        |
+|  **3/16/2020** | **President Trump issued new guidelines urging people to avoid social gatherings of more than ten people and to restrict discretionary travel.** |
 |   **4/3/2020** | **On April 3, 2020, the CDC issued guidance recommending that non-medical face coverings be worn in public**                                     |
 | **12/31/2020** | **Delta Variant found in Florida**                                                                                                               ||
 | **12/31/2020** | **Vaccines available**                                                                                                                           |
