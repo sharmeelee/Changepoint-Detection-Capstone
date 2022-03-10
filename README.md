@@ -69,7 +69,7 @@ The data we will utilize for performance validation are datasets used in the Tur
      
    **Based on our finding from each algorithm run on datasets of varying domains, sizes, and number of changepoints, we recommend the selection criteria below:** 
 
-       ![image](https://user-images.githubusercontent.com/29467617/157568369-beb29f0f-8fc3-4744-9b0c-5d54798f52a9.png)
+    ![image](https://user-images.githubusercontent.com/29467617/157568369-beb29f0f-8fc3-4744-9b0c-5d54798f52a9.png)
 
 2. **Applying changepoint algorithms to the Google Mobility data**:
 
@@ -108,24 +108,24 @@ The data we will utilize for performance validation are datasets used in the Tur
 When the pandemic was officially announced in March 2020, there were a series of events over the course of the next two years, that occured to control the spread the of the COVID-19 virus in the United States. These preventative measures included stay-at-home orders, mask mandates, and vaccines. The list of events are outlined in the table below. Of all the events, the key actions that affect mobility are bolded. We denote these as true changepoints.
 
 | Dates          | Events                                                                                                                                           |   |   |   |
-|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-|      1/31/2020 | On January 29, the U.S. formally announced a White House Coronavirus Task Force,                                                                 |   |   |   |
-|      2/15/2020 | New cases are being reported throughout the country nearly every day                                                                             |   |   |   |
-|       3/8/2020 | 19 deaths in Washington out of 22 total                                                                                                          |   |   |   |
-|      3/12/2020 | Total U.S. cases passed 1,500                                                                                                                    |   |   |   |
-|      **3/15/2020** | **CDC issued guidance recommending against any gathering of 50 or more people for an eight-week period.**                                        |   |   |   |
-|      **3/16/2020** | **President Trump issued new guidelines urging people to avoid social gatherings of more than ten people and to restrict discretionary travel.** |   |   |   |
-|      3/31/2020 | As of March 31, Our World in Data reported there were 3,170 deaths, 164,620 confirmed cases, and 1.07 million tests completed in the U.S         |   |   |   |
-|   **4/3/2020** | **On April 3, 2020, the CDC issued guidance recommending that non-medical face coverings be worn in public**                                     |   |   |   |
-|      5/27/2020 | The number of COVID-19 deaths in the U.S. tops 100,000.[                                                                                         |   |   |   |
-|      11/5/2020 | U.S. reported a single-day count of more than 100,000 new cases for the first time                                                               |   |   |   |
-|     12/14/2020 | On December 14, the U.S. surpassed 300,000 deaths, with an average more than 961 deaths per day                                                  |   |   |   |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+|      1/31/2020 | On January 29, the U.S. formally announced a White House Coronavirus Task Force,                                                                 |
+|      2/15/2020 | New cases are being reported throughout the country nearly every day                                                                             |
+|       3/8/2020 | 19 deaths in Washington out of 22 total                                                                                                          |
+|      3/12/2020 | Total U.S. cases passed 1,500                                                                                                                    |
+|      **3/15/2020** | **CDC issued guidance recommending against any gathering of 50 or more people for an eight-week period.**                                        |
+|      **3/16/2020** | **President Trump issued new guidelines urging people to avoid social gatherings of more than ten people and to restrict discretionary travel.** |
+|      3/31/2020 | As of March 31, Our World in Data reported there were 3,170 deaths, 164,620 confirmed cases, and 1.07 million tests completed in the U.S         |
+|   **4/3/2020** | **On April 3, 2020, the CDC issued guidance recommending that non-medical face coverings be worn in public**                                     |
+|      5/27/2020 | The number of COVID-19 deaths in the U.S. tops 100,000.[                                                                                         |
+|      11/5/2020 | U.S. reported a single-day count of more than 100,000 new cases for the first time                                                               |
+|     12/14/2020 | On December 14, the U.S. surpassed 300,000 deaths, with an average more than 961 deaths per day                                                  |
 | **12/31/2020** | **Delta Variant found in Florida**                                                                                                               |   |   |   |
 | **12/31/2020** | **Vaccines available**                                                                                                                           |   |   |   |
-|   **2/1/2021** | **Distribution of vaccines**                                                                                                                     |   |   |   |
-|      3/12/2021 | the United States surpassed 100 million doses administered                                                                                       |   |   |   |
-|      8/23/2021 | Pfizer full approval                                                                                                                             |   |   |   |
-|  **12/1/2021** | **Omicron variant**                                                                                                                              |   |   |   |
+|   **2/1/2021** | **Distribution of vaccines**                                                                                                                     |
+|      3/12/2021 | the United States surpassed 100 million doses administered                                                                                       |
+|      8/23/2021 | Pfizer full approval                                                                                                                             |
+|  **12/1/2021** | **Omicron variant**                                                                                                                              |
 
 
 ![image](https://user-images.githubusercontent.com/29467617/157128096-e69b28f6-fb77-4978-b3a7-76f7d36d1d00.png)
