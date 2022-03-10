@@ -16,62 +16,24 @@ The data we will utilize for performance validation are datasets used in the Tur
 ```bash
 |   LICENSE
 |   README.md
+|   requirements.txt
+|   setup.py
 |
 +---Artifacts
 |       Flyer.pdf
-|       Infographics_capstone.pdf
-|       test
+|       Poster
 |
-+---Datasets
-|   |   katsExploration-MinimumTemp.ipynb
-|   |   notes
-|   |
-|   \---DP_Datasets
-|           Brent Spot Price.csv
-|           Cali Emissions.csv
-|           Coal Power.csv
-|           HH Spot Price.csv
-|           Imports Crude Oil.csv
-|           NA Emissions.csv
-|           Nuclear Capacity.csv
-|           Ren Gen TX.csv
-|           test.txt
-|           Wind Gen.csv
-|           WTI Price FOB.csv
-|
-+---EDA
-|       katsExploration-Bayesian.ipynb
-|       katsExploration-RobustStatDetector.ipynb
-|
-+---Final Drafts
-|       Appendix.ipynb
-|       CovidStory.ipynb
-|       FinalDraft2.ipynb
-|       Final_Notebook.ipynb
-|       GoogleMobility.ipynb
-|       test.md
-|       Turing_BOCP.ipynb
-|       Turing_Cusum.ipynb
-|       Turing_RSD.ipynb
-|
-\---TCPD
-        Centralia 3.ipynb
-        GDP_Japan.ipynb
-        Global_Monthly_CO2.ipynb
-        Homeruns.ipynb
-        Iteration_1.ipynb
-        LGA_passengers.ipynb
-        Nile 10.ipynb
-        Nile.ipynb
-        Ozone.ipynb
-        Quality_control_1.ipynb
+\---Notebooks
+        Appendix.ipynb
+        Detecting Changepoints During COVID-19 Using KATS.ipynb
+
 ```
 
 
 ### Program Functionality
 1. **Exploring changepoint detection algorithms using TCPD benchmark study**:
 
-     In this section, we evaluate each changepoint detection algorithm from the KATS package using the datasets from the Turing study. The purpose of this exercise is to assess the advantages and shortcomings of each algorithm in the KATS package. We provide an analysis of each algorithm and its parameters optimized to find the changepoints closest to the true changepoints and with high confidence. These insights will be used to determine which algorithm is best suited for Google Mobility data for detecting changepoints during Covid. We have composed our analysis and findings in the notebooks **Turing_RSD.ipynb, Turing_BOCP.ipynb and Turing_Cusum.ipynb**.
+     In this section, we evaluate each changepoint detection algorithm from the KATS package using the datasets from the Turing study. The purpose of this exercise is to assess the advantages and shortcomings of each algorithm in the KATS package. We provide an analysis of each algorithm and its parameters optimized to find the changepoints closest to the true changepoints and with high confidence. These insights will be used to determine which algorithm is best suited for Google Mobility data for detecting changepoints during Covid. We have composed our analysis and findings in the notebooks **Appendix.ipynb**.
      
    **Based on our finding from each algorithm run on datasets of varying domains, sizes, and number of changepoints, we recommend the selection criteria below:** 
 
