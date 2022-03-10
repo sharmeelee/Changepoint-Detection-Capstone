@@ -146,9 +146,6 @@ cd Changepoint-Detection-Capstone
 ```
 python3 setup.py install
 ```
-```
-Download and run the following jupyter notebooks
-Turing_RSD.ipynb, Turing_BOCP.ipynb, Turing_Cusum.ipynb and FinalDraft2.ipynb
-```
+
 ### License
 This work is licensed under the MIT license.
