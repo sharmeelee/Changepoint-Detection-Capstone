@@ -69,7 +69,7 @@ The data we will utilize for performance validation are datasets used in the Tur
      
    **Based on our finding from each algorithm run on datasets of varying domains, sizes, and number of changepoints, we recommend the selection criteria below:** 
 
-        ![Capture](https://user-images.githubusercontent.com/29467617/157568329-807c5b8a-7d4e-4bea-8292-7c26af887b91.JPG)
+       ![image](https://user-images.githubusercontent.com/29467617/157568369-beb29f0f-8fc3-4744-9b0c-5d54798f52a9.png)
 
 2. **Applying changepoint algorithms to the Google Mobility data**:
 
