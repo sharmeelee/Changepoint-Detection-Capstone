@@ -1,4 +1,4 @@
-# Detection of Changepoints during COVID
+# Detection of Changepoints during COVID-19
 Authors: Priyanka Bijlani, Sharmeelee Bijlani, Lakshmi Venkatasubramanian, Dhruv Arora, Divya Pandey
 ## Introduction
 Meta's Infrastructure Data Science team has released a time-series package called KATS to analyze time-series datasets. The KATS package implements multiple changepoint detection algorithms and tries to identify points in a time-series which show a sudden or abrupt change. A changepoint is defined as a ‘persistent change’ in the time series rather than an anomaly or an outlier in the time series data. The goal of this project is to conduct research on time series data and apply the KATS package to multiple datasets in various contexts to assess and evaluate the performance of the time-series algorithms, and to provide recommendations to improve the algorithms from the applied research conducted.
